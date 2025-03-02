@@ -1,0 +1,686 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+.html {
+    font-size: 10px;
+}
+
+
+.firstsection {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(238, 236, 236);
+}
+
+.firstsection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.firstsection .nav-item a {
+    color: #2c2d3f;
+    font-size: 0.85rem;
+    transition: 0.5s;
+}
+
+.firstsection .nav-item a span {
+    color: #1a76d1;
+    font-weight: 600;
+}
+
+.firstsection li a:hover {
+    color: #1a76d1;
+}
+
+.firstsection .col-xl-4 {
+    /* background: red; */
+    position: relative;
+    margin-left: auto;
+}
+
+.firstsection .col-xl-4 .nav {
+    position: absolute;
+    right: 0px;
+    /* background: tan; */
+}
+
+
+
+
+
+/*  */
+
+
+#secondsection {
+    padding-top: 10px;
+    height: 65px;
+    position: relative;
+}
+
+#secondsection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#secondsection img {
+    width: 17%;
+}
+
+#secondsection a {
+    margin-top: 20px;
+    color: black;
+    margin-right: 25px;
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+
+#secondsection a:hover {
+    color: #1a76d1;
+    border-bottom: 3px solid #1a76d1;
+}
+
+
+#secondsection .btn{
+    background: #1a76d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: 1s;
+    padding: 10px;
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#secondsection .btn:hover{
+    color: white;
+    border: none;
+}
+
+#secondsection .btn:after {
+    content: "";
+    background: #2c2d3f;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.7s;
+}
+
+#secondsection .btn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.7s;
+}
+
+#secondsection .active .nav-link {
+    color: #1a76d1;
+    border-bottom: 3px solid #1a76d1;
+}
+
+#secondsection .dropdown-item:hover {
+    border-bottom: none;
+}
+
+
+
+/*  */
+
+
+
+
+.thirdsection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* color: white; */
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(26, 118, 209), rgba(26, 118, 209, 0.6)), url("../images/26.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.thirdsection h1 {
+    font-weight: 600;
+}
+
+.thirdsection span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.thirdsection a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.thirdsection a:hover {
+    color: #2c2d3f;
+}
+
+
+/*  */
+
+
+.fourthsection {
+    width: 100%;
+    /* background: tan; */
+    margin-bottom: 100px;
+}
+
+.fourthsection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fourthsection .upper img {
+    height: 650px;
+}
+
+.fourthsection .a {
+    font-weight: 600;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.fourthsection p {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.fourthsection i {
+    font-size: 2.5rem;
+    padding-right: 10px;
+}
+
+.fourthsection .active {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #1a76d1;
+    color: white;
+    padding-left: 75px;
+    padding-right: 150px;
+}
+
+.fourthsection .col-7 h3 {
+    font-weight: 600;
+}
+
+.fourthsection .col-5 {
+    margin-top: 20px;
+}
+
+.fourthsection .col-7 {
+    margin-top: 20px;
+}
+
+
+
+/*  */
+
+
+.sixteensection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    background: #1a76e1;
+    /* opacity: 0.9; */
+    color: white;
+}
+
+.sixteensection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sixteensection h4 {
+    padding-bottom: 50px;
+    font-weight: 600;
+}
+
+.sixteensection p {
+    font-size: 0.9rem;
+}
+
+.sixteensection span {
+    padding-bottom: 15px;
+    border-bottom: 3px solid white;
+}
+
+.sixteensection .col {
+    /* background: yellowgreen; */
+    margin: 5px;
+}
+
+.sixteensection .about i {
+    margin-top: 10px;
+    width: 13%;
+    height: 35px;
+    padding-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    /* background: #2c2d3f; */
+    border: 1px solid white;
+    color: white;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.sixteensection .about i:hover {
+    background-color: white;
+    color: #1a76d1;
+}
+
+.sixteensection .quick i {
+    padding-right: 10px;
+}
+
+.box13 p:hover {
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.news p {
+    padding-right: 40px;
+}
+
+
+.active input::-webkit-input-placeholder {
+    color: white;
+}
+
+.sixteensection input {
+    border: 1px solid white;
+    background: #1a76e1;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.sixteensection input:hover {
+    background: #1a76e1;
+    color: white;
+}
+
+.sixteensection button {
+    position: relative;
+    left: -30px;
+    width: 100%;
+    background: white;
+    padding: 10px;
+    color: #1a76d1;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.5s;
+}
+
+
+.sixteensection button:hover {
+    background: white;
+    color: #2c2d3f;
+}
+
+
+.sixteensection .quick a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*  */
+
+
+
+
+.seventeensection {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    color: white;
+    background: #1a76d1;
+}
+
+
+
+
+
+
+
+/*  */
+
+@media only screen and (max-width:1200px) {
+
+    #secondsection a {
+        margin-right: 15px;
+    }
+
+    .firstsection .container-fluid {
+        width: 100%;
+    }
+
+    #secondsection .container-fluid {
+        width: 100%;
+    }
+
+    .fourthsection .container-fluid {
+        width: 100%;
+    }
+
+    .sixteensection .container-fluid {
+        width: 99%;
+    }
+
+    .sixteensection .about i {
+        font-size: 0.8rem;
+    }
+
+    .fourthsection .active {
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 100px;
+    }
+
+    .fourthsection p {
+        font-size: 0.9rem;
+    }
+
+    .fourthsection .col-lg-5 img {
+        height: 320px;
+    }
+
+    .active input::-webkit-input-placeholder {
+        font-size: 0.8rem;
+    }
+
+}
+
+/*  */
+
+
+@media only screen and (max-width:1024px) {
+
+
+    .sixteensection p {
+        font-size: 0.7rem;
+    }
+
+    .sixteensection .about i {
+        width: 15%;
+        margin-right: 5px;
+    }
+
+    .thirdsection {
+        margin-bottom: 50px;
+    }
+
+    .fourthsection {
+        margin-bottom: 50px;
+    }
+
+    .fourthsection .col-lg-5 img {
+        height: 350px;
+    }
+
+
+}
+
+
+
+/*  */
+
+
+
+@media only screen and (max-width:992px) {
+
+
+    #secondsection a {
+        margin-right: 7px;
+        font-size: 0.8rem;
+    }
+
+    .firstsection .nav a {
+        font-size: 0.8rem;
+    }
+
+
+    .sixteensection .col {
+        margin: 0;
+    }
+
+    .sixteensection .about i {
+        font-size: 0.8rem;
+    }
+
+    .sixteensection p {
+        font-size: 0.75rem;
+    }
+
+    .sixteensection .about i {
+        padding-top: 9px;
+        margin-right: 10px;
+        height: 35px;
+    }
+
+
+    .contactin .box .row {
+        height: 170px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .fourthsection .active {
+        padding-right: 50px;
+    }
+
+
+}
+
+
+/*  */
+
+
+@media only screen and (max-width:991px) {
+
+
+    #secondsection .btn {
+        display: none;
+    }
+
+
+    .contactin .box .row {
+        height: 200px;
+    }
+
+    .sixteensection .col-lg-3 {
+        margin-top: 30px;
+    }
+
+    .sixteensection .about i {
+        height: 40px;
+        width: 10%;
+        padding-top: 12px;
+    }
+
+}
+
+
+/*  */
+
+@media only screen and (max-width:768px) {
+
+
+    .firstsection .nav-item a {
+        font-size: 0.7rem;
+    }
+
+
+    .sixteensection .col-lg-3 {
+        margin-bottom: 20px;
+    }
+
+    .sixteensection p {
+        font-size: 1rem;
+    }
+
+    .fourthsection .active {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .fourthsection img {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+/*  */
+
+
+
+@media only screen and (max-width:767px) {
+
+    .firstsection {
+        /* background: yellow; */
+        padding-bottom: 50px;
+    }
+
+    .firstsection .col-xl-6 ul {
+        /* background: red; */
+        /* text-align: center; */
+        justify-content: center;
+    }
+
+    .firstsection .col-xl-4 ul {
+        /* background: teal; */
+        width: 100%;
+        justify-content: center;
+    }
+
+    .firstsection .nav a {
+        font-size: 0.85rem;
+    }
+
+    #secondsection img {
+        width: 30%;
+    }
+
+    #secondsection .active .nav-link {
+        color: black;
+        border-bottom: none;
+    }
+
+
+    #secondsection {
+        padding-top: 10px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .sixteensection .about i {
+        width: 6%;
+    }
+
+
+
+}
+
+
+
+/*  */
+
+
+
+@media only screen and (max-width:430px) {
+
+
+    .firstsection {
+        padding-bottom: 60px;
+    }
+
+    .firstsection .nav a {
+        font-size: 0.8rem;
+    }
+
+    .firstsection .col-xl-4 .nav {
+        left: 0px;
+    }
+
+    .thirdsection {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+
+    .box14 .col-5 {
+        text-align: right;
+    }
+
+
+    .fourthsection .active {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .sixteensection button i {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .sixteensection .about i {
+        width: 10%;
+    }
+
+
+
+}
+
+/*  */
+
+
+
+@media only screen and (max-width:376px) {
+
+
+    .sixteensection button {
+        left: -40px;
+        padding-right: 30px;
+    }
+
+    .sixteensection .about i {
+        width: 11%;
+    }
+
+
+}
+
+
+/*  */
+
+@media only screen and (max-width:320px) {
+
+    .firstsection {
+        padding-bottom: 80px;
+    }
+
+    .sixteensection .about i {
+        width: 12%;
+    }
+
+}

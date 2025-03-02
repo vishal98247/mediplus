@@ -1,0 +1,1084 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+.html {
+    font-size: 10px;
+}
+
+
+.firstsection {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(238, 236, 236);
+}
+
+.firstsection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.firstsection .nav-item a {
+    color: #2c2d3f;
+    font-size: 0.85rem;
+    transition: 0.5s;
+}
+
+.firstsection .nav-item a span {
+    color: #1a76d1;
+    font-weight: 600;
+}
+
+.firstsection li a:hover {
+    color: #1a76d1;
+}
+
+.firstsection .col-xl-4 {
+    /* background: red; */
+    position: relative;
+    margin-left: auto;
+}
+
+.firstsection .col-xl-4 .nav {
+    position: absolute;
+    right: 0px;
+    /* background: tan; */
+}
+
+
+
+/*  */
+
+
+
+#secondsection {
+    padding-top: 10px;
+    height: 65px;
+    /* padding-bottom: 1px; */
+    position: relative;
+    /* bottom: -15px; */
+}
+
+#secondsection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#secondsection img {
+    width: 17%;
+}
+
+#secondsection a {
+    margin-top: 20px;
+    color: black;
+    margin-right: 25px;
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+
+#secondsection a:hover {
+    color: #1a76d1;
+    border-bottom: 3px solid #1a76d1;
+}
+
+
+#secondsection .btn{
+    background: #1a76d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: 1s;
+    padding: 10px;
+    margin-top: 0px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+}
+
+#secondsection .btn:hover{
+    color: white;
+    border: none;
+}
+
+#secondsection .btn:after {
+    content: "";
+    background: #2c2d3f;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.7s;
+}
+
+#secondsection .btn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.7s;
+}
+
+
+/* #secondsection .btn-link {
+    background: #1a76d1;
+    color: white;
+    font-size: 0.9rem;
+    padding: 10px;
+    padding-left: 30px;
+    margin-top: -5px;
+    padding-right: 30px;
+    text-decoration: none;
+    border: none;
+    transition: 0.5s;
+} */
+/* 
+#secondsection .btn-link:hover {
+    color: white;
+} */
+
+#secondsection .active .nav-link {
+    color: #1a76d1;
+    border-bottom: 3px solid #1a76d1;
+}
+
+#secondsection .dropdown-item:hover {
+    border-bottom: none;
+}
+
+
+
+
+/*  */
+
+
+.thirdsection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* color: white; */
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(26, 118, 209), rgba(26, 118, 209, 0.6)), url("../images/26.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.thirdsection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.thirdsection h1 {
+    font-weight: 600;
+}
+
+.thirdsection span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.thirdsection a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.thirdsection a:hover {
+    color: #2c2d3f;
+}
+
+
+
+/*  */
+
+
+
+.forthsection {
+    /* background: teal; */
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.forthsection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.forthsection .active {
+    color: #1a76d1;
+    font-size: 1rem;
+}
+
+.forthsection img {
+    width: 100%;
+    height: 570px;
+}
+
+.forthsection p {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.forthsection .topper {
+    padding-top: 50px;
+    /* padding-right: 200px; */
+    /* background: tan; */
+    /* padding-left: 40px; */
+}
+
+.forthsection span {
+    background: #a8cdf1;
+    border-radius: 100%;
+    padding: 6px;
+    font-size: 0.8rem;
+    color: #1a76d1;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.forthsection span:hover {
+    background: #1a76d1;
+    color: white;
+}
+
+
+/*  */
+
+.fifthsection {
+    margin-bottom: 100px;
+}
+
+.fifthsection .row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fifthsection .boxa {
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s;
+}
+
+
+.fifthsection .boxb {
+    padding: 15px;
+    height: 290px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s;
+}
+
+.fifthsection i {
+    background: #1a76d1;
+    color: white;
+    border-radius: 100%;
+    padding: 20px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+
+.fifthsection h4 {
+    font-weight: 600;
+}
+
+.fifthsection .boxb p {
+    color: gray;
+    transition: 0.5s;
+}
+
+.fifthsection .boxa:hover p {
+    color: white;
+}
+
+.fifthsection .boxa:hover .boxb {
+    color: white;
+}
+
+.fifthsection .boxa:hover i {
+    background: white;
+    color: #1a76d1;
+}
+
+.fifthsection .boxc {
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+    background: #1a76d1;
+    height: 300px;
+    top: 0;
+    left: -100%;
+    transition: 0.5s;
+    /* opacity: 0.5; */
+}
+
+.fifthsection .content {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    z-index: 3;
+    font-size: 0.9rem;
+}
+
+
+.fifthsection .boxa:hover .boxc {
+    left: 0;
+    color: white;
+}
+
+
+
+/*  */
+
+
+
+.sixthsection {
+    width: 100%;
+}
+
+.sixthsection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.sixthsection .topper {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.sixthsection h1 {
+    font-weight: 600;
+}
+
+.sixthsection .active {
+    color: #1a76d1;
+    font-size: 1rem;
+}
+
+.sixthsection p {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.sixthsection img {
+    width: 100%;
+    height: 620px;
+}
+
+.sixthsection i {
+    margin-top: 20px;
+    color: #1a76d1;
+    border-radius: 100%;
+    width: 25%;
+    padding-top: 18px;
+    height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s;
+}
+
+.sixthsection i:hover {
+    background: #1a76d1;
+    color: white;
+}
+
+.sixthsection h4 {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/*  */
+
+
+
+
+.fifteensection {
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+    background: #edf2ff;
+}
+
+.fifteensection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fifteensection .left {
+    padding-right: 100px;
+}
+
+.fifteensection h4 {
+    padding-bottom: 10px;
+}
+
+.fifteensection p {
+    /* line-height: 10px; */
+    font-size: 0.9rem;
+    color: gray;
+}
+
+
+.fifteensection input {
+    padding: 15px;
+    width: 100%;
+}
+
+
+.fifteensection .btn{
+    background: #1a76d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    transition: 1s;
+    padding: 15px;
+    font-size: 0.9rem;
+    overflow: hidden;
+}
+
+.fifteensection .btn:hover{
+    color: white;
+}
+
+.fifteensection .btn:after {
+    content: "";
+    background: #2c2d3f;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.7s;
+}
+
+.fifteensection .btn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.7s;
+}
+
+
+/*  */
+
+
+.sixteensection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    background: #1a76e1;
+    /* opacity: 0.9; */
+    color: white;
+}
+
+.sixteensection .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sixteensection h4 {
+    padding-bottom: 50px;
+    font-weight: 600;
+}
+
+.sixteensection p {
+    font-size: 0.9rem;
+}
+
+.sixteensection span {
+    padding-bottom: 15px;
+    border-bottom: 3px solid white;
+}
+
+.sixteensection .col {
+    /* background: yellowgreen; */
+    margin: 5px;
+}
+
+.sixteensection .about i {
+    margin-top: 10px;
+    width: 13%;
+    height: 35px;
+    padding-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    /* background: #2c2d3f; */
+    border: 1px solid white;
+    color: white;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.sixteensection .about i:hover {
+    background-color: white;
+    color: #1a76d1;
+}
+
+.sixteensection .quick i {
+    padding-right: 10px;
+}
+
+.box13 p:hover {
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.news p {
+    padding-right: 40px;
+}
+
+
+.active input::-webkit-input-placeholder {
+    color: white;
+}
+
+.sixteensection input {
+    border: 1px solid white;
+    background: #1a76e1;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.sixteensection input:hover {
+    background: #1a76e1;
+    color: white;
+}
+
+.sixteensection button {
+    position: relative;
+    left: -30px;
+    width: 100%;
+    background: white;
+    padding: 10px;
+    color: #1a76d1;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.5s;
+}
+
+
+.sixteensection button:hover {
+    background: white;
+    color: #2c2d3f;
+}
+
+
+.sixteensection .quick a {
+    color: white;
+    text-decoration: none;
+}
+
+/*  */
+
+
+
+
+.seventeensection {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    color: white;
+    background: #1a76d1;
+}
+
+
+
+
+
+/*  */
+
+@media only screen and (max-width:1200px) {
+
+    .firstsection .container-fluid {
+        width: 100%;
+    }
+
+    #secondsection .container-fluid {
+        width: 100%;
+    }
+
+    #secondsection a {
+        margin-right: 15px;
+    }
+
+    .forthsection .container-fluid {
+        width: 100%;
+    }
+
+    .forthsection .topper {
+        padding-right: 10px;
+    }
+
+    .fifthsection .row {
+        width: 100%;
+    }
+
+    .sixthsection .container-fluid {
+        width: 100%;
+    }
+
+    .sixthsection .topper {
+        padding-left: 50px;
+    }
+
+    .sixthsection i {
+        width: 24%;
+    }
+
+    .fifteensection .container-fluid {
+        width: 100%;
+    }
+
+    .sixteensection .container-fluid {
+        width: 99%;
+    }
+
+    .sixteensection .about i {
+        font-size: 0.8rem;
+    }
+
+    .active input::-webkit-input-placeholder {
+        font-size: 0.8rem;
+    }
+
+}
+
+/*  */
+
+
+@media only screen and (max-width:1100px){
+
+    .sixthsection i{
+        width: 27%;
+    }
+
+}
+
+
+
+/*  */
+
+
+@media only screen and (max-width:1024px) {
+
+    .forthsection .topper {
+        padding-top: 50px;
+    }
+
+    .fifthsection .content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sixthsection p {
+        font-size: 0.8rem;
+    }
+
+    .sixthsection i {
+        width: 30%;
+    }
+
+    .sixteensection p {
+        font-size: 0.7rem;
+    }
+
+    .sixteensection .about i {
+        width: 15%;
+        margin-right: 5px;
+    }
+
+    .sixthsection .topper {
+        /* padding-top: 40px; */
+    }
+
+    .fifteensection .fifth input {
+        font-size: 0.85rem;
+        padding: 20px;
+    }
+
+    .fifteensection .btn {
+        font-size: 0.85rem;
+        padding: 20px;
+    }
+
+}
+
+
+/*  */
+
+
+
+@media only screen and (max-width:992px) {
+
+
+    #secondsection a {
+        margin-right: 7px;
+        font-size: 0.8rem;
+    }
+
+    .firstsection .nav a {
+        font-size: 0.8rem;
+    }
+
+
+    .fifteensection p {
+        font-size: 0.9rem;
+        /* line-height: 10px; */
+    }
+
+    .sixteensection .col {
+        margin: 0;
+    }
+
+    .sixteensection .about i {
+        font-size: 0.8rem;
+    }
+
+    .sixteensection .about i {
+        padding-top: 9px;
+        margin-right: 10px;
+        height: 35px;
+    }
+
+    .sixteensection p {
+        font-size: 0.75rem;
+    }
+
+    .sixthsection p {
+        font-size: 0.8rem;
+    }
+
+    .fifthsection .boxa {
+        margin-top: 20px;
+    }
+
+    .sixthsection i{
+        width: 30%;
+    }
+
+
+}
+
+
+
+/*  */
+
+
+@media only screen and (max-width:991px) {
+
+
+    #secondsection .btn {
+        display: none;
+    }
+
+    .thirdsection {
+        margin-bottom: 50px;
+    }
+
+    .forthsection {
+        margin-bottom: 50px;
+    }
+
+    .fifthsection {
+        margin-bottom: 50px;
+    }
+
+    .forthsection img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .forthsection .topper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fifthsection .boxb {
+        width: 100%;
+        height: 300px;
+        /* margin-bottom: 20px; */
+        /* margin-top: 20px; */
+    }
+
+    .fifthsection .boxc {
+        height: 300px;
+    }
+
+    .sixthsection i {
+        height: 65px;
+        width: 16%;
+        padding-top: 20px;
+    }
+
+    .sixteensection .about i {
+        height: 40px;
+        width: 10%;
+        padding-top: 12px;
+    }
+
+    .sixthsection img {
+        height: 400px;
+    }
+
+    .sixthsection .topper {
+        margin-bottom: 20px;
+    }
+
+    .fifteensection .left {
+        padding-right: 0px;
+    }
+
+    .fifteensection h4 {
+        text-align: center;
+    }
+
+    .fifteensection p {
+        text-align: center;
+    }
+
+    .fifthsection h4 {
+        text-align: left;
+    }
+
+
+    .sixteensection .col-lg-3 {
+        margin-top: 30px;
+    }
+
+}
+
+
+/*  */
+
+@media only screen and (max-width:768px) {
+
+
+    .firstsection .nav-item a {
+        font-size: 0.7rem;
+    }
+
+
+    .fifteensection .col-lg-6 {
+        text-align: center;
+    }
+
+    .sixteensection .col-lg-3 {
+        margin-bottom: 20px;
+    }
+
+    .sixteensection p {
+        font-size: 0.85rem;
+    }
+
+    .sixteensection h4 {
+        text-align: left;
+    }
+
+    .sixthsection h4 {
+        text-align: left;
+    }
+
+    .sixthsection i{
+        width: 22%;
+    }
+
+
+
+}
+
+
+/*  */
+
+
+
+@media only screen and (max-width:767px) {
+
+    .firstsection {
+        /* background: yellow; */
+        padding-bottom: 50px;
+    }
+
+    .firstsection .col-xl-6 ul {
+        /* background: red; */
+        /* text-align: center; */
+        justify-content: center;
+    }
+
+    .firstsection .col-xl-4 ul {
+        /* background: teal; */
+        width: 100%;
+        justify-content: center;
+    }
+
+    .firstsection .nav a {
+        font-size: 1rem;
+    }
+
+    #secondsection img {
+        width: 30%;
+    }
+
+    #secondsection {
+        padding-top: 10px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+
+    #secondsection .active .nav-link {
+        color: black;
+        border-bottom: none;
+    }
+
+
+    .fifteensection {
+        text-align: center;
+    }
+
+    .fifteensection .left {
+        padding-right: 0px;
+    }
+
+    .fifteensection .btn {
+        margin-top: 20px;
+    }
+
+    .sixteensection .about i {
+        width: 6%;
+        margin-right: 15px;
+    }
+
+
+}
+
+
+
+/*  */
+
+
+
+@media only screen and (max-width:430px) {
+
+
+    .firstsection {
+        padding-bottom: 60px;
+    }
+
+    .firstsection .nav a {
+        font-size: 0.8rem;
+    }
+
+    .firstsection .col-xl-4 .nav {
+        left: 0px;
+    }
+
+    .thirdsection {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .forthsection img {
+        height: 350px;
+    }
+
+    .sixthsection img {
+        height: 350px;
+    }
+
+    .sixthsection i {
+        width: 20%;
+    }
+
+
+    .box14 .col-5 {
+        text-align: right;
+    }
+
+    .fifteensection {
+        padding: 10px;
+    }
+
+    .fifteensection .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .fifteensection p {
+        line-height: 30px;
+    }
+
+    .sixteensection button i {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .sixteensection .about i {
+        width: 10%;
+    }
+
+
+}
+
+
+/*  */
+
+
+
+@media only screen and (max-width:376px) {
+
+
+    .sixteensection button {
+        left: -40px;
+        padding-right: 30px;
+    }
+
+    .sixteensection .about i {
+        width: 11%;
+    }
+
+    .sixthsection i{
+        width: 22%;
+    }
+
+
+}
+
+
+/*  */
+
+@media only screen and (max-width:320px) {
+
+    .firstsection {
+        padding-bottom: 80px;
+    }
+
+    .sixteensection .about i {
+        width: 12%;
+    }
+
+    .sixthsection i{
+        width: 28%;
+    }
+
+}
